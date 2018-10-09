@@ -1,0 +1,16 @@
+{
+  "db": {
+    "name": "db",
+    "connector": "memory"
+  },
+  "mydb": {
+    "host": "localhost",
+    "port": 3306,
+    "url": "",
+    "database": "loopback_test",
+    "password": "denim25",
+    "name": "mydb",
+    "user": "admin",
+    "connector": "mysql"
+  }
+}

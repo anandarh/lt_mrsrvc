@@ -1,0 +1,12 @@
+{
+  "mydb": {
+    "host": "localhost",
+    "port": 3306,
+    "url": "",
+    "database": "rga_loopback_documents",
+    "password": "denim25",
+    "name": "mydb",
+    "user": "admin",
+    "connector": "mysql"
+  }
+}

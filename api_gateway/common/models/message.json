@@ -1,0 +1,23 @@
+{
+  "name": "Message",
+  "base": "Model",
+  "properties": {},
+  "methods": {
+    "greet": {
+      "accepts": [{
+        "arg": "msg",
+        "type": "string",
+        "http": {
+          "source": "query"
+        }
+      }],
+      "returns": {
+        "arg": "greeting",
+        "type": "string"
+      },
+      "http": {
+        "verb": "get"
+      }
+    }
+  }
+}
